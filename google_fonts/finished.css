@@ -3,19 +3,17 @@ html {
 }
 
 p {
-    font-family: 'Merriweather', Georgia, "Times New Roman", serif;
+    font-family: "Merriweather", Georgia, "Times New Roman", serif;
 	font-size: 1rem;
 	line-height: 1.5rem;
 }
 
 .italic {
-	font-family: 'Merriweather', Georgia, "Times New Roman", serif;
-	font-weight: 400;
 	font-style: italic;
 }
 
 h1 {
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
 }
 
 body{

@@ -72,7 +72,36 @@ Why, you stuck up...half-witted...scruffy-looking...<span class="italic">nerf-he
 \
 Keep in mind that span is an inline tag. Now that we have that tag there, we can style the text without actually doing something that will change it for people listening on a screen reader. To do that, we go to our css and write: \
 \
-.\
+.italic \{\
+	font-style: italic;\
+\}\
+\
+Because everything else inherits, that works just fine for that. Now all you have to do is wrap that span declaration around anything you want to be italic. \
+\
+The other way to make things italic is to use some tags that will make sense for screen readers, but we still have to style. for example, i and b are replaced with em and strong to an extent. \
+\
+em: stress emphasis, pronounced differently \
+\
+strong: importance \
+\
+You can still style those tags, which is important to do \'97 not all browsers will pick up on the italicized font style. \
+\
+Anyhow, let\'92s move on to the headers and subheads. I\'92m going to use Merriweather Sans for them, because it\'92s specifically designed for working with Merriweather. \
+\
+We can add this to our selected font, then copy and paste the code into our html page: \
+\
+\pard\pardeftab720\sl280\partightenfactor0
+\ls1\ilvl0\cf2 <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700|Merriweather:400,400i,700,700i" rel="stylesheet">\
+\
+then into our CSS, we\'92ll write some other styles: \
+\
+h1 \{\
+    font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;\
+\}\
+\
+\pard\tx0\tx220\pardeftab720\sl280\partightenfactor0
+\ls1\ilvl0\cf2 \
+\
 \
  \
 }
