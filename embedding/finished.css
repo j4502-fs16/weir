@@ -81,5 +81,6 @@ img {
 }
 
 .twitter-timeline {
-    float: left; 
+    float: left;
+    padding-right: 30px; 
 }
