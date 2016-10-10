@@ -80,7 +80,7 @@ img {
 	height: 100%;
 }
 
-.twitter-timeline {
+.twitter-wrapper {
     float: left;
-    padding-right: 30px; 
+    padding-right: 30px;
 }
